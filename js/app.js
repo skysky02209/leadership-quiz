@@ -251,7 +251,7 @@ function pairs(){
    <button class="go" data-pi="${P.indexOf(p)}">🎯 이 쌍 맞히기 (2문제)</button></div>`;}).join('')}`;
   document.getElementById('allp').onclick=()=>startQuiz(shuf(pairItems(P)).slice(0,20),'헷갈리는 쌍');
   $app.querySelectorAll('[data-pg]').forEach(b=>b.onclick=()=>{S.pairG=b.dataset.pg;save();pairs();});
-  $app.querySelectorAll('[data-pi]').forEach(b=>b.onclick=()=>{const p=P[+b.dataset.pi];startQuiz(shuf(pairItems([p])),p.a+' · '+p.b);});
+  $app.querySelectorAll('[data-pi]').forEach(b=>b.onclick=()=>{const p=P[+b.dataset.pi];startQuiz(shuf(pairItems([p])),p.a+' vs '+p.b);});
 }
 
 // ---------- STATS ----------

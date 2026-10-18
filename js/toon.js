@@ -32,10 +32,10 @@ window.TOON = [
  {t:'talk',bg:'#e3f2fd',L:['kid','sad'],R:['doc','smile'],prop:'👑😰',cap:'팀플 첫 회의 날',lines:[['kid','선배, 제비뽑기로 조장이 됐어요. 저 리더십 없는데…'],['doc','리더십이 뭔지부터 알면 덜 무서워. <b>리더십 = 영향력 + 자발성</b>이야.']]},
  {t:'talk',bg:'#fff8e1',L:['doc','cool'],R:['kid','think'],prop:'🎯',lines:[['doc','정의는 "주어진 상황에서 <b>목표 달성</b>을 위해 개인이나 집단의 활동에 <b>영향력을 미치는 과정</b>".'],['kid','공통점은요?'],['doc','<b>집단 상황</b>, 그리고 <b>영향력을 행사하는 과정</b>. 이 두 개가 공통 분모야.']]},
  {t:'talk',bg:'#e8f5e9',L:['kid','wow'],R:['doc','smile'],prop:'🤝',lines:[['kid','그럼 무섭게 시키면 되는 거예요?'],['doc','아니! 핵심은 <b>긍정적 영향력</b>으로 <b>자발적 추종</b>을 끌어내는 거야. 그리고 정확한 방향설정·실행으로 목표달성!']]},
- {t:'board',title:'권력, 옛날 생각과 요즘 생각',html:`<table><tr><th>전통적</th><th>현대적</th></tr><tr><td>강-약, 지배-피지배</td><td class="hl">본질적·보편적 기능</td></tr><tr><td>필요악, 도덕적</td><td class="hl">관계적, 타인의 인식</td></tr><tr><td>한정량</td><td class="hl">역동적, <b>창출되는 것</b></td></tr></table>`},
+ {t:'board',title:'권력, 옛날 생각 vs 요즘 생각',html:`<table><tr><th>전통적</th><th>현대적</th></tr><tr><td>강-약, 지배-피지배</td><td class="hl">본질적·보편적 기능</td></tr><tr><td>필요악, 도덕적</td><td class="hl">관계적, 타인의 인식</td></tr><tr><td>한정량</td><td class="hl">역동적, <b>창출되는 것</b></td></tr></table>`},
  {t:'fig',title:'영향력 7가지와 신뢰 수준',svg:'power',cap:'전문적(전문능력) · 정보적(정보) · 준거적(Role Model·호감) / 합법적(지위) · 보상적(칭찬, 긍정) · 연결적(인맥) · 강제적(해고·감봉, 부정)'},
  {t:'talk',bg:'#fce4ec',L:['doc','think'],R:['kid','smile'],prop:'📚',lines:[['doc','너는 조장이라 <b>지위권력</b>은 조금 있어. 근데 진짜 신뢰는 <b>개인권력</b>에서 와. 자료 제일 잘 찾는 사람이 되면 <b>전문적·정보적 권력</b>!'],['kid','강제적 권력은 쓰지 말아야겠네요.'],['doc','맞아. 신뢰가 <b>가장 낮은</b> 영향력이야.']]},
- {t:'board',title:'리더의 역할 6가지',html:`<table><tr><td class="hl">Listen</td><td class="hl">Empowerment</td><td class="hl">Assist</td></tr><tr><td class="hl">Decision</td><td class="hl">Evaluation</td><td class="hl">Reward</td></tr></table><p class="tip">💡 영향력의 소재: 보수·평가·정보·최종 결정·예산·인맥을 누가 쥐고 있나?</p>`}
+ {t:'board',title:'리더의 역할 6가지',html:`<table><tr><td class="hl">Listen<br><small>경청</small></td><td class="hl">Empowerment<br><small>권한 위임</small></td><td class="hl">Assist<br><small>지원</small></td></tr><tr><td class="hl">Decision<br><small>의사결정</small></td><td class="hl">Evaluation<br><small>평가</small></td><td class="hl">Reward<br><small>보상</small></td></tr></table><p class="tip">💡 영향력의 소재: 보수·평가·정보·최종 결정·예산·인맥을 누가 쥐고 있나?</p>`}
  ]},
 {ep:2, w:2, title:'리더는 배워서 된다', sub:'문제 제기 · 세상의 변화 · 학습 = 변화 · 70-20-10', color:'#00897b', emoji:'🌏',
  quiz:['과정적 측면','결과적 측면','인구통계학적 혁명','협업 마케팅','변화','가르치기','맥락','70-20-10','공자'],
@@ -60,12 +60,12 @@ window.TOON = [
  {t:'talk',bg:'#e8f5e9',L:['kid','think'],R:['doc','smile'],prop:'🏃‍♂️💨',lines:[['kid','근데 화가 나면 생각이 안 돼요.'],['doc','정상이야. 감정은 <b>생존을 위한 장치</b>라 이성보다 먼저 켜져. 감정마다 <b>행동경향성</b>이 있어, 두려우면 도망가듯이.'],['doc','그래서 감정 정보를 <b>처리·활용</b>하고, 감정을 <b>잘 다루는</b> 능력을 키워야 해.']]},
  {t:'board',title:'정서공감능력 키우기 5단계',html:`<ol><li><b>감정인식</b></li><li>친밀감 조성 및 교육의 기회로 삼기</li><li><b>공감</b></li><li><b>감정에 이름 붙이기</b></li><li>행동의 한계 확인 및 스스로 문제해결</li></ol><p class="tip">💡 긍정정서 → 긍정적 자동적 사고 → 의미추구·발견 → <b>삶에 대한 만족</b></p>`}
  ]},
-{ep:4, w:4, title:'나는 어떤 사람일까', sub:'자기 탐색 · 홀랜드 6유형 · 자기인식 5방법', color:'#ef6c00', emoji:'🪞',
+{ep:4, w:4, title:'나는 어떤 사람일까', sub:'자기 탐색 · 홀랜드 RIASEC · 자기인식 5방법', color:'#ef6c00', emoji:'🪞',
  quiz:['홀랜드','현실형','탐구형','예술형','사회형','진취형','관습형','Self-awareness','마음 챙김','f(인간, 상황)'],
- memo:['자기 탐색: 인생곡선 · 핵심가치 · 재능(다중지능) · 흥미검사','홀랜드 6유형: 현실·탐구·예술·사회·진취·관습','리더 최고의 덕목 = Self-awareness (스탠포드 75명)','자기인식 5: 마음 챙김 · 요가 · 성찰 · 글쓰기 · 피드백 / 커뮤니케이션 = f(인간, 상황)'],
+ memo:['자기 탐색: 인생곡선 · 핵심가치 · 재능(다중지능) · 흥미검사','홀랜드 RIASEC(현실·탐구·예술·사회·진취·관습)','리더 최고의 덕목 = Self-awareness (스탠포드 75명)','자기인식 5: 마음 챙김 · 요가 · 성찰 · 글쓰기 · 피드백 / 커뮤니케이션 = f(인간, 상황)'],
  panels:[
  {t:'talk',bg:'#fff3e0',L:['kid','think'],R:['doc','smile'],prop:'📈',cap:'4차시 수업 끝나고',lines:[['kid','인생곡선 그리다가 좀 울컥했어요.'],['doc','그게 <b>자기 탐색</b>이야. 인생곡선, 핵심가치, 재능 찾기(다중지능검사), 흥미 검사까지 다 나를 알려는 도구야.']]},
- {t:'fig',title:'홀랜드 흥미 6유형',svg:'riasec',cap:'붙어 있는 유형끼리 비슷하다. 예: 나의 홀랜드 직업유형은 RIC'},
+ {t:'fig',title:'홀랜드 흥미 6유형 RIASEC',svg:'riasec',cap:'붙어 있는 유형끼리 비슷하다. 예: 나의 홀랜드 직업유형은 RIC'},
  {t:'board',title:'유형별 약점도 시험에 나와요',html:`<table><tr><th>유형</th><th>약한 것 · 싫어하는 것</th></tr><tr><td class="hl">현실형</td><td>감정 표현 어색, 보수적</td></tr><tr><td class="hl">탐구형</td><td>반복 작업 싫어함</td></tr><tr><td class="hl">예술형</td><td>사무적 재능 약함</td></tr><tr><td class="hl">사회형</td><td>기계적 능력 약함</td></tr><tr><td class="hl">진취형</td><td>오래 걸리는 지적 작업</td></tr><tr><td class="hl">관습형</td><td>비구조화·창조적인 일</td></tr></table>`},
  {t:'talk',bg:'#e3f2fd',L:['doc','cool'],R:['kid','wow'],prop:'🎓',lines:[['doc','스탠포드 경영대 자문위원 <b>75명</b>한테 리더의 최고 덕목을 물었더니 거의 다 <b>Self-awareness</b>래.'],['kid','완전히 객관적으로 나를 알 수 있어요?'],['doc','그건 <b>불가능</b>. 대신 노력하면 능동적이 되고 <b>더 나은 의사결정</b>을 해.']]},
  {t:'board',title:'자기인식 5가지 방법',html:`<table><tr><td class="hl">마음 챙김</td><td>지금 이 순간에 주의, 명상</td></tr><tr><td class="hl">요가</td><td>몸 + 마음 연습, 자기 수용</td></tr><tr><td class="hl">성찰 시간</td><td>생각·감정·행동 검토, 일기</td></tr><tr><td class="hl">글쓰기</td><td>원하는 것·원하지 않는 것 발견</td></tr><tr><td class="hl">피드백 구하기</td><td>여러 사람에게, 한 명 말만 믿지 않기</td></tr></table>`},
