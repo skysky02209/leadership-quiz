@@ -251,7 +251,7 @@ function pairs(){
    <button class="go" data-pi="${P.indexOf(p)}">🎯 이 쌍 맞히기 (2문제)</button></div>`;}).join('')}`;
   document.getElementById('allp').onclick=()=>startQuiz(shuf(pairItems(P)).slice(0,20),'헷갈리는 쌍');
   $app.querySelectorAll('[data-pg]').forEach(b=>b.onclick=()=>{S.pairG=b.dataset.pg;save();pairs();});
-  $app.querySelectorAll('[data-pi]').forEach(b=>b.onclick=()=>{const p=P[+b.dataset.pi];startQuiz(shuf(pairItems([p])),p.a+' vs '+p.b);});
+  $app.querySelectorAll('[data-pi]').forEach(b=>b.onclick=()=>{const p=P[+b.dataset.pi];startQuiz(shuf(pairItems([p])),p.a+' · '+p.b);});
 }
 
 // ---------- STATS ----------
@@ -350,7 +350,7 @@ function toonView(n){
   const e=T.find(x=>x.ep===n); if(!e){location.hash='toon';return;}
   const nx=T.find(x=>x.ep===n+1);
   $app.innerHTML=`<div class="qtop"><a class="x" href="#toon">← 목록</a><span class="qn">${e.ep}화 / ${T.length}화</span></div>
-  <div class="cover" style="--c:${e.color}"><small>EP.${e.ep} · ${e.w}차시</small><h1>${e.emoji} ${esc(e.title)}</h1><p>${esc(e.sub)}</p></div>
+  <div class="cover" style="--c:${e.color}"><small>${e.ep}화 · ${e.w}차시</small><h1>${e.emoji} ${esc(e.title)}</h1><p>${esc(e.sub)}</p></div>
   ${e.panels.map(panel).join('')}
   <div class="pn memo"><div class="board-t">✏️ 오늘의 한 줄 암기 (노트에 적기)</div><ul>${e.memo.map(m=>`<li>${esc(m)}</li>`).join('')}</ul></div>
   <button class="big" id="tq">🎯 이해했는지 3문제로 확인</button>
